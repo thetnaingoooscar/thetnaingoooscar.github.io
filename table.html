@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <h1>Table</h1>
+    <table border="1" cellpadding="30">
+       <tr>
+           <th>No.</th>
+           <th>Name</th>
+       </tr>
+       <tr>
+           <td>1</td>
+           <td>Mg Mg</td>
+       </tr>
+       <tr>
+        <td>2</td>
+        <td>Ko Ko</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Ma Ma</td>
+    </tr>
+    </table>
+    <table border="1" cellpadding="20" style="color: crimson;">
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Name</th>
+                <th>Photo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Mg Mg</td>
+                <td><img src="images/1.png" alt="" width="100" height="100"></td>
+            </tr>
+            <tr>
+             <td>2</td>
+             <td>Ko Ko</td>
+             <td><img src="images/2.jpg" alt="" width="100" height="100"></td>
+         </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>3</td>
+                <td>Ma Ma</td>
+                <td><img src="images/3.png" alt="" width="100" height="100"></td>
+            </tr>
+        </tfoot>
+    </table>
+    <h1>Your order sheet</h1>
+    <table border="1" cellpadding="30" style="background-color: rgb(47, 52, 79); color: floralwhite;">
+        <thead>
+            <tr>
+            <th>No.</th>
+            <th>Name</th>
+            <th>Pcs</th>
+            <th>Price</th>
+            <th>Subtotal</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Pop</td>
+                <td>2</td>
+                <td>2000</td>
+                <td>4000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Sunday</td>
+                <td>3</td>
+                <td>2500</td>
+                <td>7500</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Nest</td>
+                <td>2</td>
+                <td>2000</td>
+                <td>4000</td>
+            </tr>
+            <tfoot>
+                <tr>
+                    <td colspan="4">Grand Total</td>
+                    <td rowspan="2">12000</td>
+                </tr>
+                <tr>
+                    <td colspan="4"> Total</td>
+                   
+                </tr>
+            </tfoot>
+
+        </tbody>
+    </table>
+
+    <h1>Nested Table</h1>
+    <table border="1" cellpadding="30" cellspacing="50">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td rowspan="3" style="background-color: gold;">11</td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <table border="1" cellpadding="20" style="background-color: orangered;">
+                    <tr>
+                       <td>3</td>
+                       <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>6</td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+
+
+    </table>
+    <table border="1" cellpadding="20">
+        <tr style="background-color: orange;">
+            <td>
+                cell 1
+            </td>
+            <td colspan="2">
+                cell 2
+            </td>
+        </tr>
+        <tr style="background-color: orchid;">
+            <td>
+                cell 3
+            </td>
+            <td rowspan="2">
+                cell 4
+            </td>
+            <td>
+                cell 5
+            </td>
+        </tr>
+        <tr style="background-color: royalblue;">
+            <td>cell 6</td>
+            <td>cell 7</td>
+        </tr>
+
+
+    </table>
+
+</body>
+</html>
